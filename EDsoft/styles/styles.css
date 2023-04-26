@@ -59,6 +59,7 @@
   /* Otros */
   --border-radius: 0.5rem;
   --box-shadow: 0 2px 2px rgba(36, 47, 66, 0.1);
+  --width-img: 400px;
 }
 
 /*      Hasta aca fueron valores para mobile       */
@@ -191,6 +192,12 @@ h4 {
 
 .container img {
   width: var(--width-img);
+}
+
+@media screen and (max-width: 430px) {
+  .container img {
+    width: 300px;
+  }
 }
 
 /* ----- BOTONES ----- */
